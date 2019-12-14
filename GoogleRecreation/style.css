@@ -1,0 +1,140 @@
+*{
+    font-family: Product-Sans
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html {
+    overflow: hidden;
+}
+
+.navBar, .footerBar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+
+}
+.leftNav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.leftNav p{
+    margin-top: -5px;
+    padding: 10px;
+}
+.rightNav{
+    display: flex;
+    flex-direction: row;
+}
+.rightNav p{
+    margin-top: -5px;
+    padding: 10px;
+}
+.navBar a:hover {
+    text-decoration: underline;
+}
+
+
+.mainLogo a{
+    display: flex;
+    justify-content: center;
+}
+.mainLogo h1{
+    margin-right: -1px;
+    font-size: 6em;
+    font-weight: 800;
+    margin-top: 151px;
+}
+.mainLogo #g {
+    color: #4285F4;
+}
+.mainLogo #o {
+    color: #DB4437;
+}
+.mainLogo #o2 {
+    color: #F4B400;
+}
+.mainLogo #g2 {
+    color: #4285F4;
+}
+.mainLogo #l {
+    color: #0F9D58;
+}
+.mainLogo #e {
+    color: #DB4437;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    
+}
+#searchBox {
+    border-radius:35px;
+    border-style: solid;
+    border: .1px solid rgba(0, 0, 0, .5);
+
+    
+    width: 550px;;
+    height: 46px;
+    
+    font-size: 1em;
+    font-weight: 300;
+    text-indent: 10%;
+
+    
+}
+#searchBox:hover{
+    box-shadow: 0 0 3px .01px;
+ 
+} /* box-shadow rules box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+#googleSearch, #feelingLucky {
+    font-size: 1em;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    
+}
+#googleSearch {
+    margin-right: 15px
+}
+#feelingLucky { width: 150px; }
+.shortLink a{
+    color: #1c1ba8;
+    text-align: center;
+}
+
+footer {
+    margin-top: 85px;
+    margin-bottom: -100px;
+    background-color: #ebebeb;
+    border: .1px solid rgba(0, 0, 0, .5);
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+.footerBar{
+
+}
+
+
+@font-face {
+  font-family: 'Product-Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
